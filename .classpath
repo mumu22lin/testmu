@@ -32,5 +32,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/software/apache/qrcode.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
