@@ -3,8 +3,11 @@
  */
 package com.mu.muls.util;
 
+import java.util.Date;
+
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.builder.ToStringBuilder;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * @author bolinluo
@@ -24,9 +27,11 @@ public class ApDemoUtil {
 		System.out.println("Str1 strip="+StringUtils.strip(str1));
 		System.out.println(" ToStringBuilder="+ToStringBuilder.reflectionToString(new String()));
 		
-		
+				
 		
 
 	}
 
 }
+
+
