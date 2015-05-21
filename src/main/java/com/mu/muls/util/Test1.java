@@ -1,5 +1,6 @@
 package com.mu.muls.util;
 
+
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 
 import java.net.InetAddress;
@@ -7,10 +8,12 @@ import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+
 /**
  * Created by bolinluo on 2015/3/2.
  */
 public class Test1 {
+
     private static String formatTime(long time){
         if (time <= 0L)
             return "";
@@ -68,4 +71,5 @@ public class Test1 {
         System.out.println("layer=" + validLayer + " times=" + times);
 
     }
+
 }
