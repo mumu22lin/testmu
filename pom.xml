@@ -3,7 +3,10 @@
   <groupId>com.mu</groupId>
   <artifactId>muls</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+    <modules>
+        <module>../../../projects/ideawork/testmuaa</module>
+    </modules>
+    <packaging>pom</packaging>
   <name>mm</name>
   <description>mu</description>
   
@@ -55,6 +58,13 @@
 			<artifactId>spring-web</artifactId>
 			<version>${springframework.version}</version>
 		</dependency>
+	
+	    <dependency>
+	        <groupId>org.springframework.amqp</groupId>
+	        <artifactId>spring-rabbit</artifactId>
+	        <version>1.4.0.RELEASE</version>
+	    </dependency>
+
 		<dependency>
 	        <groupId>org.springframework.security</groupId>
 	        <artifactId>spring-security-web</artifactId>
@@ -188,6 +198,17 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.3</version>
 		</dependency>
+		
+		<dependency>  
+            <groupId>javax.annotation</groupId>  
+            <artifactId>jsr250-api</artifactId>  
+            <version>1.0</version>  
+        </dependency>  
+        <dependency>  
+            <groupId>org.apache.activemq</groupId>  
+            <artifactId>activemq-core</artifactId>  
+            <version>5.7.0</version>  
+        </dependency>  
 		
   </dependencies>
   
